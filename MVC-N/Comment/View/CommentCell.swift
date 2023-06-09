@@ -27,7 +27,8 @@ final class CommentCell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         contentView.addSubview(label)
         contentView.addSubview(textView)
-        NSLayoutConstraint.activate([
+        NSLayoutConstraint.activate([ // мне кажется что эта часть ошибочная и можно было бы ее натсроить сразу
+
             topAnchor.constraint(equalTo: label.topAnchor),
             bottomAnchor.constraint(equalTo: label.bottomAnchor, constant: 100),
             leadingAnchor.constraint(equalTo: label.leadingAnchor, constant: -30),

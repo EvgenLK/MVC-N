@@ -65,7 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				9B48557D2A31E3EF00A794AB /* Application */,
-				9B48557E2A31E3FB00A794AB /* Commit */,
+				9B48557E2A31E3FB00A794AB /* Commint */,
 				9B48557F2A31E40900A794AB /* SupportingFiles */,
 			);
 			path = "MVC-N";
@@ -82,7 +82,7 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
-		9B48557E2A31E3FB00A794AB /* Commit */ = {
+		9B48557E2A31E3FB00A794AB /* Commint */ = {
 			isa = PBXGroup;
 			children = (
 				9B4855852A31E4CB00A794AB /* Model */,
@@ -90,7 +90,7 @@
 				9B4855832A31E4BE00A794AB /* Controller */,
 				9B4855872A31E52400A794AB /* CommentNetworkService */,
 			);
-			path = Commit;
+			path = Commint;
 			sourceTree = "<group>";
 		};
 		9B48557F2A31E40900A794AB /* SupportingFiles */ = {

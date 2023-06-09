@@ -8,7 +8,7 @@
 import Foundation
 
 class NetworkService {
-    static let shared = NetworkService() // singlton?
+    static let shared = NetworkService() // singlton
     
     private init() {}
     
@@ -28,5 +28,4 @@ class NetworkService {
             }
         }.resume()
     }
-    
 }
